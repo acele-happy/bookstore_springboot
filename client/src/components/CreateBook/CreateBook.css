@@ -1,0 +1,42 @@
+
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    right: 150px;
+    position: relative;
+    top: 90px;
+
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.formContainer form input, .formContainer form textarea{
+    margin-top: 20px;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+}
+
+.formContainer form input[type=submit]{
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.formContainer form textarea{
+    height: 30vh;
+}
+
+.formContainer .newbook{
+    color: #FFF4E6;
+    position: relative;
+    top: 50px;
+    left: 430px;
+    width: 300px;
+}
+
+.main{
+    display: flex;
+}

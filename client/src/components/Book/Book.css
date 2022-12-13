@@ -1,0 +1,46 @@
+.cont{
+    width: 200px;
+    height: 250px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+.imagepart img{
+    background: #fff0dc;
+    width: 200px;
+    height: 125px;
+    display: block;
+    object-fit:contain;
+}
+
+.textpart ul{
+    color: #555;
+    list-style: none;
+    position: relative;
+    right: 20px;
+}
+.textpart ul li{
+    font-size: 10px;
+}
+
+.cart{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: orange;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 15px;
+    left: 45px;
+    border-bottom: 1px solid orange;
+}
+.cart:hover{
+    background: orange;
+    color: #fff;
+    transition: 1s;
+}
